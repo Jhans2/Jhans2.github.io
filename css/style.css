@@ -1,0 +1,117 @@
+/* 
+  Name: JATIN HANS
+
+  Dated: 12 AUGUST 2021
+
+  SECTION: ZAA
+
+  ST ID: 141560201
+
+  ID: jhans2@myseneca.ca
+*/
+.responsive {
+  padding: auto;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  display: flex;
+  border-radius: 30px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background: url("../images/background.jpg");
+  color: white;
+  border-radius: 25px;
+}
+
+.my2 {
+  height: 70px;
+  text-align: center;
+  padding: 1px;
+  padding: 0 16px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1:hover {
+  background-color: rgb(108, 112, 107);
+}
+.button:hover {
+  background-color: #555;
+}
+
+.container-left {
+  flex-basis: 50%;
+  padding: 0 21px;
+  background-color: rgb(190, 253, 232);
+}
+.container-right {
+  flex-basis: 50%;
+  padding: 10 35px;
+  background-color: rgb(190, 255, 233);
+}
+
+.container-new {
+  flex-basis: 25%;
+  padding: 40px 40px;
+  background-color: #fc5555;
+  color: #fff;
+}
+.container-old {
+  flex-basis: 25%;
+  padding: 0 26px;
+  text-align: left;
+}
